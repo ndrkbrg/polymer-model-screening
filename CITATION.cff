@@ -3,8 +3,10 @@ message: "Please cite this software and its associated article when using these 
 type: software
 title: "Computational Screening of Effective Interaction Models for Stimuli-Responsive Polymer Solutions: Reproducibility Code"
 version: 0.1.0
+date-released: 2026-10-28
+doi: "10.5281/zenodo.23734178"
 repository-code: "https://github.com/ndrkbrg/polymer-model-screening"
-url: "https://github.com/ndrkbrg/polymer-model-screening"
+url: "https://doi.org/10.5281/zenodo.23734178"
 license: MIT
 authors:
   - family-names: "Kabdushev"

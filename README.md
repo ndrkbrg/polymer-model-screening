@@ -6,7 +6,7 @@ The study compares effective interaction models, native-attractor recovery, rese
 
 Repository: [ndrkbrg/polymer-model-screening](https://github.com/ndrkbrg/polymer-model-screening).
 
-Code and software documentation use the **MIT License**; datasets and figures use **CC BY 4.0**. See [licensing scope](LICENSING.md), [publication information](docs/publication.md) and [local validation](VALIDATION.md). No archival DOI has been assigned.
+Code and software documentation use the **MIT License**; datasets and figures use **CC BY 4.0**. See [licensing scope](LICENSING.md), [publication information](docs/publication.md) and [local validation](VALIDATION.md). The fixed release **v0.1.0** is archived at Zenodo: [10.5281/zenodo.23734178](https://doi.org/10.5281/zenodo.23734178). It identifies commit `268ea44366546b89f6664a44206856abc5a6007f`; later documentation updates on main do not change that archive.
 
 ## Install
 
