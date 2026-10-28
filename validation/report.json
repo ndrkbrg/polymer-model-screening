@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-24",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "matplotlib": "3.9.4",
+    "pillow": "11.3.0",
+    "pytest": "8.4.2",
+    "threadpoolctl": "3.6.0",
+    "ruff": "0.17.2"
+  },
+  "tests": {
+    "passed": 96,
+    "failed": 0,
+    "excluded": 0,
+    "warnings": 240,
+    "warning_scope": "Deprecations from pinned plotting dependencies; no scientific test failures."
+  },
+  "regeneration": {
+    "passed": true,
+    "csv_files_compared": 24,
+    "csv_cells_compared": 166212,
+    "comparisons": [
+      "original/reservoir_summary.csv",
+      "original/attractor_recall_summary.csv",
+      "original/multivalued_summary.csv",
+      "original/rbm_summary.csv",
+      "original/routes_summary.csv",
+      "original/reservoir_comparisons.csv",
+      "revision/attractor_sensitivity_summary.csv",
+      "revision/cutoff_raw.csv",
+      "revision/cutoff_summary.csv",
+      "revision/discovery_summary.csv",
+      "revision/original_reservoir_main_summary.csv",
+      "revision/original_reservoir_seed_metrics.csv",
+      "revision/paired_differences_raw.csv",
+      "revision/primary_contrasts.csv",
+      "revision/rbm_joint_summary.csv",
+      "revision/reservoir_summary.csv",
+      "revision/routes_joint_summary.csv",
+      "revision/secondary_contrasts.csv",
+      "figure_sources/figure2.csv",
+      "figure_sources/figure3.csv",
+      "figure_sources/figure4.csv",
+      "figure_sources/figure5.csv",
+      "figure_sources/figure6.csv",
+      "figure_sources/figure7.csv"
+    ],
+    "numeric_tolerance": {
+      "rtol": 1e-09,
+      "atol": 1e-11
+    },
+    "independent_aggregate_checks": 6960,
+    "main_figures": 7,
+    "supporting_figures": 6,
+    "scope": "Regenerated from archived raw results, not full new simulations. Fonts and image rendering can vary by platform."
+  },
+  "smoke": {
+    "passed": true,
+    "original": "Fresh quick simulations; five raw/summary pairs checked.",
+    "revision": "Fresh seed-30 simulations in both model families.",
+    "revision_rows": {
+      "discovery": 24,
+      "attractor_sensitivity": 24,
+      "discovery_bank": 2560,
+      "attractor_cues": 6105,
+      "reservoir": 28,
+      "memory_delays": 1120
+    },
+    "revision_matches_archived_seed_30": true,
+    "revision_csv_cells_compared": 93387,
+    "full_manuscript_runs_repeated": false
+  },
+  "source_comparison": {
+    "equal_functions_and_classes": 201,
+    "reviewed_orchestration_adaptations": 10,
+    "byte_identical_scientific_files": 211
+  },
+  "remote_ci_executed": false,
+  "full_production_simulations_repeated": false,
+  "scope": "Local Windows validation in a dedicated environment. Full production simulations and independent historical-environment reconstruction were not repeated."
+}

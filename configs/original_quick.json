@@ -1,0 +1,59 @@
+{
+  "profile": "quick",
+  "main_seeds": [0, 1],
+  "sensitivity_seeds": [0],
+  "bootstrap_resamples": 200,
+  "attractor": {
+    "systems": ["PAA", "NVPVPE"],
+    "sizes": [12],
+    "spreads": [0.0, 1.0],
+    "corruptions": [0.1, 0.3],
+    "threshold_fractions": [0.0],
+    "discovery_starts": 16,
+    "max_attractors": 2,
+    "cue_repeats": 2,
+    "max_sweeps": 20,
+    "grid_n": 24,
+    "perturbations": [0.05]
+  },
+  "reservoir": {
+    "systems": ["PAA", "NVPVPE"],
+    "size": 16,
+    "spread": 1.0,
+    "radius": 0.9,
+    "sequence_length": 350,
+    "washout": 50,
+    "memory_length": 400,
+    "max_delay": 10,
+    "tau": [0.5, 2.0],
+    "gain": [0.3, 0.6],
+    "response_width": [1.0],
+    "spectral_radius": [0.9],
+    "sizes": [16],
+    "washouts": [50]
+  },
+  "multivalued": {
+    "systems": ["PAA", "NVPVPE"],
+    "size": 10,
+    "spread": 1.0,
+    "spreads": [0.0, 1.0],
+    "landscape_starts": 30,
+    "field_fractions": [0.125, 0.5],
+    "max_alphabet": 5,
+    "field_trials": 4,
+    "repeats": 2
+  },
+  "rbm": {
+    "main_seeds": [0, 1],
+    "sensitivity_seeds": [0],
+    "epochs_3": 150,
+    "epochs_4": 200,
+    "learning_rate": 0.5,
+    "gibbs_samples": 80,
+    "gibbs_steps": 30,
+    "mixing_steps": 100,
+    "ranks": [2, 4],
+    "fabrication_errors": [0.0, 0.2],
+    "quantization_levels": [2, 8]
+  }
+}

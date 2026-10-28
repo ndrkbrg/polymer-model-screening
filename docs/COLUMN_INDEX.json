@@ -1,0 +1,828 @@
+{
+  "experiment": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/multivalued_raw.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "seed": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/multivalued_confusion.csv",
+    "data/original/multivalued_raw.csv",
+    "data/original/rbm_raw.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/routes_raw.csv",
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/cutoff_raw.csv",
+    "data/revision/discovery_bank_raw.csv",
+    "data/revision/discovery_raw.csv",
+    "data/revision/memory_delays_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/paired_differences_raw.csv",
+    "data/revision/reservoir_raw.csv"
+  ],
+  "system": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/multivalued_confusion.csv",
+    "data/original/multivalued_raw.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/reservoir_comparisons.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_raw.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_bank_raw.csv",
+    "data/revision/discovery_raw.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/memory_delays_raw.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/paired_differences_raw.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/reservoir_raw.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "N": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/multivalued_raw.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/reservoir_raw.csv"
+  ],
+  "spread": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/multivalued_confusion.csv",
+    "data/original/multivalued_raw.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "threshold_fraction": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv"
+  ],
+  "corruption": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv"
+  ],
+  "representation": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv"
+  ],
+  "n_attractors": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "perfect_recall_rate": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "mean_overlap": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "mean_sweeps": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "convergence_rate": [
+    "data/original/attractor_recall_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "cycle_rate": [
+    "data/original/attractor_recall_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "timeout_rate": [
+    "data/original/attractor_recall_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "weighted_energy_violations": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "ordinary_energy_violations": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "status": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/multivalued_raw.csv",
+    "data/original/rbm_raw.csv",
+    "data/original/reservoir_raw.csv",
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/discovery_bank_raw.csv",
+    "data/revision/memory_delays_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "perturbation": [
+    "data/original/attractor_recall_raw.csv",
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/revision/cutoff_raw.csv",
+    "data/revision/cutoff_summary.csv"
+  ],
+  "symmetrizability_error": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "exact_break": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "practical_break": [
+    "data/original/attractor_recall_raw.csv"
+  ],
+  "metric": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_comparisons.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/paired_differences_raw.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "n": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_comparisons.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "mean": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "std": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "median": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "ci95_low": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_comparisons.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "ci95_high": [
+    "data/original/attractor_recall_summary.csv",
+    "data/original/figure_sources/figure2.csv",
+    "data/original/figure_sources/figure3.csv",
+    "data/original/figure_sources/figure4.csv",
+    "data/original/figure_sources/figure5.csv",
+    "data/original/figure_sources/figure6.csv",
+    "data/original/figure_sources/figure7.csv",
+    "data/original/multivalued_summary.csv",
+    "data/original/rbm_summary.csv",
+    "data/original/reservoir_comparisons.csv",
+    "data/original/reservoir_summary.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "model": [
+    "data/original/figure_sources/figure4.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "response_width": [
+    "data/original/figure_sources/figure4.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "tau": [
+    "data/original/figure_sources/figure4.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/reservoir_raw.csv"
+  ],
+  "gain": [
+    "data/original/figure_sources/figure4.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "radius": [
+    "data/original/figure_sources/figure4.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "washout": [
+    "data/original/figure_sources/figure4.csv",
+    "data/original/reservoir_raw.csv",
+    "data/original/reservoir_summary.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "benchmark": [
+    "data/original/figure_sources/figure6.csv",
+    "data/original/rbm_raw.csv",
+    "data/original/rbm_summary.csv"
+  ],
+  "size": [
+    "data/original/figure_sources/figure6.csv",
+    "data/original/rbm_raw.csv",
+    "data/original/rbm_summary.csv",
+    "data/revision/rbm_joint_summary.csv"
+  ],
+  "constraint": [
+    "data/original/figure_sources/figure6.csv",
+    "data/original/rbm_raw.csv",
+    "data/original/rbm_summary.csv",
+    "data/revision/rbm_joint_summary.csv"
+  ],
+  "rank_target": [
+    "data/original/figure_sources/figure6.csv",
+    "data/original/rbm_raw.csv",
+    "data/original/rbm_summary.csv"
+  ],
+  "route": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "setting": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "error": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "levels": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "update_noise": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "mem_gamma": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "mem_dep_ratio": [
+    "data/original/figure_sources/figure7.csv",
+    "data/original/routes_raw.csv",
+    "data/original/routes_summary.csv",
+    "data/revision/routes_joint_summary.csv"
+  ],
+  "field_kind": [
+    "data/original/multivalued_confusion.csv"
+  ],
+  "field_fraction": [
+    "data/original/multivalued_confusion.csv"
+  ],
+  "origin_state": [
+    "data/original/multivalued_confusion.csv"
+  ],
+  "target_state": [
+    "data/original/multivalued_confusion.csv"
+  ],
+  "count": [
+    "data/original/multivalued_confusion.csv"
+  ],
+  "repeats": [
+    "data/original/multivalued_confusion.csv"
+  ],
+  "stable_state_count": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "nonconverged_starts": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "basin_entropy": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "top_basin_fraction": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "alphabet_size": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "addressability_score": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "fields_tested": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "best_field_kind": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "best_field_fraction": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "transition_success_rate": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "nontrivial_transition_found": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "increment_found": [
+    "data/original/multivalued_raw.csv"
+  ],
+  "valid_fraction": [
+    "data/original/rbm_raw.csv",
+    "data/original/routes_raw.csv"
+  ],
+  "kl_target_to_model": [
+    "data/original/rbm_raw.csv",
+    "data/original/routes_raw.csv"
+  ],
+  "negative_log_likelihood": [
+    "data/original/rbm_raw.csv",
+    "data/original/routes_raw.csv"
+  ],
+  "mode_coverage": [
+    "data/original/rbm_raw.csv",
+    "data/original/routes_raw.csv"
+  ],
+  "duplicate_rate": [
+    "data/original/rbm_raw.csv",
+    "data/original/routes_raw.csv"
+  ],
+  "mixing_time": [
+    "data/original/rbm_raw.csv",
+    "data/original/routes_raw.csv"
+  ],
+  "negative_residual": [
+    "data/original/rbm_raw.csv"
+  ],
+  "local_residual": [
+    "data/original/rbm_raw.csv"
+  ],
+  "rank_residual": [
+    "data/original/rbm_raw.csv"
+  ],
+  "approximate_intersection": [
+    "data/original/rbm_raw.csv"
+  ],
+  "condition_a": [
+    "data/original/reservoir_comparisons.csv"
+  ],
+  "condition_b": [
+    "data/original/reservoir_comparisons.csv"
+  ],
+  "mean_paired_difference": [
+    "data/original/reservoir_comparisons.csv"
+  ],
+  "wilcoxon_statistic": [
+    "data/original/reservoir_comparisons.csv"
+  ],
+  "p_value": [
+    "data/original/reservoir_comparisons.csv",
+    "data/revision/primary_contrasts.csv"
+  ],
+  "p_holm": [
+    "data/original/reservoir_comparisons.csv",
+    "data/revision/primary_contrasts.csv"
+  ],
+  "narma10_nrmse": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/reservoir_raw.csv"
+  ],
+  "narma20_nrmse": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "mackey_glass_nrmse": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "memory_capacity": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/reservoir_raw.csv"
+  ],
+  "narma10_task_seed": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv",
+    "data/revision/reservoir_raw.csv"
+  ],
+  "esp_max_distance": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "has_esp": [
+    "data/original/reservoir_raw.csv",
+    "data/revision/original_reservoir_seed_metrics.csv"
+  ],
+  "value": [
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/parameters/physical_parameters.csv"
+  ],
+  "target": [
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/discovery_bank_raw.csv"
+  ],
+  "repeat": [
+    "data/revision/attractor_cues_raw.csv"
+  ],
+  "perfect": [
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "overlap": [
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "sweeps": [
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_bank_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "target_fixed": [
+    "data/revision/attractor_cues_raw.csv",
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "field_scale": [
+    "data/revision/attractor_sensitivity_raw.csv"
+  ],
+  "n_targets": [
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "n_cues": [
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "weighted_recovery": [
+    "data/revision/attractor_sensitivity_raw.csv",
+    "data/revision/discovery_raw.csv"
+  ],
+  "symmetry_residual": [
+    "data/revision/attractor_sensitivity_raw.csv"
+  ],
+  "n_total": [
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "failed_or_missing": [
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "minimum": [
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "maximum": [
+    "data/revision/attractor_sensitivity_summary.csv",
+    "data/revision/cutoff_summary.csv",
+    "data/revision/discovery_summary.csv",
+    "data/revision/original_reservoir_main_summary.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/rbm_joint_summary.csv",
+    "data/revision/reservoir_summary.csv",
+    "data/revision/routes_joint_summary.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "id": [
+    "data/revision/claim_evidence.csv",
+    "data/parameters/physical_parameters.csv"
+  ],
+  "claim": [
+    "data/revision/claim_evidence.csv"
+  ],
+  "evidence": [
+    "data/revision/claim_evidence.csv"
+  ],
+  "location": [
+    "data/revision/claim_evidence.csv"
+  ],
+  "limit": [
+    "data/revision/claim_evidence.csv"
+  ],
+  "evidence_class": [
+    "data/revision/claim_evidence.csv",
+    "data/parameters/physical_parameters.csv"
+  ],
+  "human_verification": [
+    "data/revision/claim_evidence.csv",
+    "data/parameters/physical_parameters.csv"
+  ],
+  "cutoff": [
+    "data/revision/cutoff_raw.csv",
+    "data/revision/cutoff_summary.csv"
+  ],
+  "exceeds": [
+    "data/revision/cutoff_raw.csv"
+  ],
+  "bank": [
+    "data/revision/discovery_bank_raw.csv"
+  ],
+  "start": [
+    "data/revision/discovery_bank_raw.csv"
+  ],
+  "budget": [
+    "data/revision/discovery_raw.csv",
+    "data/revision/discovery_summary.csv"
+  ],
+  "top_k": [
+    "data/revision/discovery_raw.csv",
+    "data/revision/discovery_summary.csv"
+  ],
+  "observed_attractors": [
+    "data/revision/discovery_raw.csv"
+  ],
+  "new_attractors": [
+    "data/revision/discovery_raw.csv"
+  ],
+  "discovery_convergence": [
+    "data/revision/discovery_raw.csv"
+  ],
+  "retained_discovery_fraction": [
+    "data/revision/discovery_raw.csv"
+  ],
+  "validation_known_fraction": [
+    "data/revision/discovery_raw.csv"
+  ],
+  "validation_selected_fraction": [
+    "data/revision/discovery_raw.csv"
+  ],
+  "condition": [
+    "data/revision/memory_delays_raw.csv",
+    "data/revision/reservoir_raw.csv",
+    "data/revision/reservoir_summary.csv"
+  ],
+  "delay": [
+    "data/revision/memory_delays_raw.csv"
+  ],
+  "r2": [
+    "data/revision/memory_delays_raw.csv"
+  ],
+  "comparison": [
+    "data/revision/paired_differences_raw.csv",
+    "data/revision/primary_contrasts.csv",
+    "data/revision/secondary_contrasts.csv"
+  ],
+  "difference": [
+    "data/revision/paired_differences_raw.csv"
+  ],
+  "group": [
+    "data/revision/reservoir_raw.csv",
+    "data/revision/reservoir_summary.csv"
+  ],
+  "response": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "a": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "noise": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "topology": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "input_scale": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "driven_fraction": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "nrmse_train": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "n_train": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "n_test": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "task_status": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "memory_status": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "geometry_seed": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "noise_seed": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "memory_seed": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "matrix_sha256": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "input_sha256": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "input_weights_sha256": [
+    "data/revision/reservoir_raw.csv"
+  ],
+  "symbol": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "meaning": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "unit": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "source": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "rationale": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "sensitivity_or_limit": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "calibration": [
+    "data/parameters/physical_parameters.csv"
+  ],
+  "manuscript_location": [
+    "data/parameters/physical_parameters.csv"
+  ]
+}

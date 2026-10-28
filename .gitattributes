@@ -1,0 +1,4 @@
+# Preserve release checksums on every platform, including archived CSV/JSON bytes.
+* -text
+*.npz binary
+*.png binary

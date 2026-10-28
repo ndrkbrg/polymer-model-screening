@@ -1,0 +1,611 @@
+{
+  "coilnet/__init__.py": {
+    "historical_sha256": "de0fc710b15fc76d9ce62f0e2ea72611eb822b9154ad61d7376e80925663e4d3",
+    "phase_e_sha256": "de0fc710b15fc76d9ce62f0e2ea72611eb822b9154ad61d7376e80925663e4d3",
+    "path": "coilnet/__init__.py",
+    "release_sha256": "6085b5569b543e1fa00699dec8b4937255904fb2db7d43dbbe423783dccae72f",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/boolean_circuit.py": {
+    "historical_sha256": "bd15e4434716f5b9dfc589d5f64ef4543f3c22bf1c1054b276241c96467e6aed",
+    "phase_e_sha256": "bd15e4434716f5b9dfc589d5f64ef4543f3c22bf1c1054b276241c96467e6aed",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/capacity.py": {
+    "historical_sha256": "49418eb6ad01c0101b539527a71f86fde121f33b27b36d9650718997f8dffb9a",
+    "phase_e_sha256": "49418eb6ad01c0101b539527a71f86fde121f33b27b36d9650718997f8dffb9a",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/coupling.py": {
+    "historical_sha256": "a7763eccf723e6776efb599b7bdf58dc12081e97a5402d946a4a40f713183998",
+    "phase_e_sha256": "a7763eccf723e6776efb599b7bdf58dc12081e97a5402d946a4a40f713183998",
+    "path": "coilnet/coupling.py",
+    "release_sha256": "a7763eccf723e6776efb599b7bdf58dc12081e97a5402d946a4a40f713183998",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/dynamics.py": {
+    "historical_sha256": "3c4514d3b198a744298badd84630038a538d14e95dc1fa8023151f82347ad75d",
+    "phase_e_sha256": "3c4514d3b198a744298badd84630038a538d14e95dc1fa8023151f82347ad75d",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/energybased/__init__.py": {
+    "historical_sha256": "df0cb612901f61b856ad13c3b280acc1893a0e4912ea0d84033064ec3bb2a522",
+    "phase_e_sha256": "df0cb612901f61b856ad13c3b280acc1893a0e4912ea0d84033064ec3bb2a522",
+    "path": "coilnet/energybased/__init__.py",
+    "release_sha256": "c318cdbcf459997092827eac141f163d9547f64a166275c45051cf8a0dafe4d5",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/energybased/glauber.py": {
+    "historical_sha256": "c01cb123c324f2b2ee9a9d971afbfb84a77e01df38c132f08473521fc1dff51b",
+    "phase_e_sha256": "c01cb123c324f2b2ee9a9d971afbfb84a77e01df38c132f08473521fc1dff51b",
+    "path": "coilnet/energybased/glauber.py",
+    "release_sha256": "c01cb123c324f2b2ee9a9d971afbfb84a77e01df38c132f08473521fc1dff51b",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/energybased/metrics.py": {
+    "historical_sha256": "5ee49dae969bcf265212086f85964971a883bf3a4ec0e4e72490454968168949",
+    "phase_e_sha256": "5ee49dae969bcf265212086f85964971a883bf3a4ec0e4e72490454968168949",
+    "path": "coilnet/energybased/metrics.py",
+    "release_sha256": "5ee49dae969bcf265212086f85964971a883bf3a4ec0e4e72490454968168949",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/energybased/physical.py": {
+    "historical_sha256": "7d56fb5e71e92ae5ac0e67c4b97919d7f2d7751effa8d7d5f78f98c65adec505",
+    "phase_e_sha256": "7d56fb5e71e92ae5ac0e67c4b97919d7f2d7751effa8d7d5f78f98c65adec505",
+    "path": "coilnet/energybased/physical.py",
+    "release_sha256": "25fef277594ebbd15f212d911528aac6726c6ab474035ba6a8f31abc2c7df97f",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/energybased/rbm.py": {
+    "historical_sha256": "36dcc070e84ebf60413115c6a2e497356b3ebd2a41e1541bd9dc19fda6a8fc69",
+    "phase_e_sha256": "36dcc070e84ebf60413115c6a2e497356b3ebd2a41e1541bd9dc19fda6a8fc69",
+    "path": "coilnet/energybased/rbm.py",
+    "release_sha256": "23ae11bf4b9535459d5bb3940363e86c9f4c876c94139cfff3e08dcb279cdb6d",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/__init__.py": {
+    "historical_sha256": "efb49ef3bc9f3d41291e74944756e39cbe8483f5b834431872cff6e89cd7b5eb",
+    "phase_e_sha256": "efb49ef3bc9f3d41291e74944756e39cbe8483f5b834431872cff6e89cd7b5eb",
+    "path": "coilnet/experiments/__init__.py",
+    "release_sha256": "2ef8f4afa37b15402921b7f15c7fe2d48a09e37e1598e1d19a10c258751173b3",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/_rc_common.py": {
+    "historical_sha256": "e4ccd9afc345f8ecbdc4eda30563e5f4ef79da49ab2bea495c3e94a7b23458e4",
+    "phase_e_sha256": "e4ccd9afc345f8ecbdc4eda30563e5f4ef79da49ab2bea495c3e94a7b23458e4",
+    "path": "coilnet/experiments/_rc_common.py",
+    "release_sha256": "3fbc03b13ce9ea2472053b8cf3b772e0125bf128f35be030f1fa4b034034423f",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/q1_common.py": {
+    "historical_sha256": "920a5724c4a05206d77704fdb4f71d4bce889a70ab2595c2beeb25bf51fd6643",
+    "phase_e_sha256": "920a5724c4a05206d77704fdb4f71d4bce889a70ab2595c2beeb25bf51fd6643",
+    "path": "coilnet/experiments/q1_common.py",
+    "release_sha256": "b1580bae0bdc8d15bb219e51174843da5c05a943029cb849de66b9a9de64a535",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_boolean_circuit.py": {
+    "historical_sha256": "69e66917a049be7a21a83310ae8f580f4ff3a351a763dc47c5b0a0c3078f15e3",
+    "phase_e_sha256": "69e66917a049be7a21a83310ae8f580f4ff3a351a763dc47c5b0a0c3078f15e3",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_capacity.py": {
+    "historical_sha256": "22c6035b8aa091ab5a5542c9552de9cf13efa483d5404a8dfd65a3c976a25630",
+    "phase_e_sha256": "22c6035b8aa091ab5a5542c9552de9cf13efa483d5404a8dfd65a3c976a25630",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase15_asymmetry_helps.py": {
+    "historical_sha256": "8fbb7b54a83bce77a4301aa73b1669d250a0a52d9d1ed8e7574c3cae52631413",
+    "phase_e_sha256": "8fbb7b54a83bce77a4301aa73b1669d250a0a52d9d1ed8e7574c3cae52631413",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase15_caveat_probe.py": {
+    "historical_sha256": "e8e16179e571285e92f7eb0cb5995944f528b7cba9c0ae9c6a4a770d7d732de3",
+    "phase_e_sha256": "e8e16179e571285e92f7eb0cb5995944f528b7cba9c0ae9c6a4a770d7d732de3",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase15_esp_sweep.py": {
+    "historical_sha256": "4c20aabab8f8279975be6ea764034e07b1e2aed9d6b0f3911ebdea4631df7754",
+    "phase_e_sha256": "4c20aabab8f8279975be6ea764034e07b1e2aed9d6b0f3911ebdea4631df7754",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase15_memory_capacity.py": {
+    "historical_sha256": "038cf245e7db506df94a8583ba13990b1051c9e614fe01b5f86a4398fa629e28",
+    "phase_e_sha256": "038cf245e7db506df94a8583ba13990b1051c9e614fe01b5f86a4398fa629e28",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase15_paa_vs_nvpvpe.py": {
+    "historical_sha256": "2d0be553e1dca10147a83d5f06ed2b69ad5d353373149695eaff54312d028661",
+    "phase_e_sha256": "2d0be553e1dca10147a83d5f06ed2b69ad5d353373149695eaff54312d028661",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase15_tasks.py": {
+    "historical_sha256": "c5d1ea4d1ce128ea7276e41c5dc519ee891f860f94729b61c34efb31429b5c8f",
+    "phase_e_sha256": "c5d1ea4d1ce128ea7276e41c5dc519ee891f860f94729b61c34efb31429b5c8f",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase16_addressability.py": {
+    "historical_sha256": "b41040635faeffe65928c25e6e699fb1b6d4086e2e96656b13cffda062152448",
+    "phase_e_sha256": "b41040635faeffe65928c25e6e699fb1b6d4086e2e96656b13cffda062152448",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase16_landscape.py": {
+    "historical_sha256": "15bff835828f5493e31c23d299b23a36f59704be30edaa49ae17afe4e9ecca64",
+    "phase_e_sha256": "15bff835828f5493e31c23d299b23a36f59704be30edaa49ae17afe4e9ecca64",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase16_operations.py": {
+    "historical_sha256": "ba727dee0dbbfd716e5d57ba950a724069e6d4d19f1508c9803fde7923c600e0",
+    "phase_e_sha256": "ba727dee0dbbfd716e5d57ba950a724069e6d4d19f1508c9803fde7923c600e0",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase17_rbm.py": {
+    "historical_sha256": "cf234c911a3e1d86f5c3f1405ab86fe33fbf480d44116ef3a89ede0178e2b59b",
+    "phase_e_sha256": "cf234c911a3e1d86f5c3f1405ab86fe33fbf480d44116ef3a89ede0178e2b59b",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase17_stochastic_recall.py": {
+    "historical_sha256": "9863d698b695ff7f1d84f8317dfbaa48e9e2f2d3057f980dc4a1ad9524f6e28f",
+    "phase_e_sha256": "9863d698b695ff7f1d84f8317dfbaa48e9e2f2d3057f980dc4a1ad9524f6e28f",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase18_routes.py": {
+    "historical_sha256": "cd82056cf8ec417e60e9b36cdcd7989df6f1b4063a5cc89bbfff416e2050a702",
+    "phase_e_sha256": "cd82056cf8ec417e60e9b36cdcd7989df6f1b4063a5cc89bbfff416e2050a702",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase1_nonlinear_check.py": {
+    "historical_sha256": "5395b21a1c0626d3ae473a0e550515410400459884e2a2c056c92dd7ff41c5fe",
+    "phase_e_sha256": "5395b21a1c0626d3ae473a0e550515410400459884e2a2c056c92dd7ff41c5fe",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase1_single_coil.py": {
+    "historical_sha256": "2aede22626b160261565556a36cecc0d827d2c61f86112f4cb7b610d985a0915",
+    "phase_e_sha256": "2aede22626b160261565556a36cecc0d827d2c61f86112f4cb7b610d985a0915",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase1_symmetry.py": {
+    "historical_sha256": "7cfe5bf8c2ee2cb2ed3d102fe2aa7492e53a872e5348219ad108039423beaa6a",
+    "phase_e_sha256": "7cfe5bf8c2ee2cb2ed3d102fe2aa7492e53a872e5348219ad108039423beaa6a",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase1b_multibody.py": {
+    "historical_sha256": "c5a65081096fba1d7071d8f3242d6aaf9767389ad047129a5869c94addacbf22",
+    "phase_e_sha256": "c5a65081096fba1d7071d8f3242d6aaf9767389ad047129a5869c94addacbf22",
+    "path": "coilnet/experiments/run_phase1b_multibody.py",
+    "release_sha256": "21e15c1afc3793ed1f4b46a5d1c8f250e5a67e7aed2beb46dcc5521e37f02679",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_phase1c_robustness.py": {
+    "historical_sha256": "56ac410dad4b3dc2801f6efc3da03180d0eb15ee2f53f0e611d764949b835efa",
+    "phase_e_sha256": "56ac410dad4b3dc2801f6efc3da03180d0eb15ee2f53f0e611d764949b835efa",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_phase2_attractor_recall_q1.py": {
+    "historical_sha256": "8868c6022c01a2b5258965162146ce35a55b1432d469cb3e8217a63222a261c6",
+    "phase_e_sha256": "8868c6022c01a2b5258965162146ce35a55b1432d469cb3e8217a63222a261c6",
+    "path": "coilnet/experiments/run_phase2_attractor_recall_q1.py",
+    "release_sha256": "f1c8109d7c755c1fec3caa6619abdea37666f7932c191aac446b441bb13a4a38",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_phase3_reservoir_q1.py": {
+    "historical_sha256": "273cf79d7c9ee7b0a86a419237d0562759865bb36db32c3d87a4876d14ab4af9",
+    "phase_e_sha256": "273cf79d7c9ee7b0a86a419237d0562759865bb36db32c3d87a4876d14ab4af9",
+    "path": "coilnet/experiments/run_phase3_reservoir_q1.py",
+    "release_sha256": "8352242734d9c32c8574e5e769b196b2b2d5b0ae75b2d3f082c0ca7e240431c8",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_phase4_multivalued_q1.py": {
+    "historical_sha256": "c6752197949cb6469e27fc780d444a883a87af74a42fdeee090f28a19ef081d6",
+    "phase_e_sha256": "c6752197949cb6469e27fc780d444a883a87af74a42fdeee090f28a19ef081d6",
+    "path": "coilnet/experiments/run_phase4_multivalued_q1.py",
+    "release_sha256": "ae34b0948b81ec694c1a5d0b8df39dc6ff1b0e4cda35854c27276450bedf61dc",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_phase5_rbm_q1.py": {
+    "historical_sha256": "b1dfc34b7f36792fa8fe5440ce8b9f31c4b607bf52bb59d951b96cd5db2fdf4f",
+    "phase_e_sha256": "b1dfc34b7f36792fa8fe5440ce8b9f31c4b607bf52bb59d951b96cd5db2fdf4f",
+    "path": "coilnet/experiments/run_phase5_rbm_q1.py",
+    "release_sha256": "2d92cdab39fb70d0f8ab3785ad0bce3c423f6e81422a70d408b2aa61195bfa8e",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_q1_upgrade.py": {
+    "historical_sha256": "3042683c63e36e182514f2a219891cc338e63f1ddb860149a11f1f3e6f1df1f9",
+    "phase_e_sha256": "3042683c63e36e182514f2a219891cc338e63f1ddb860149a11f1f3e6f1df1f9",
+    "path": "coilnet/experiments/run_q1_upgrade.py",
+    "release_sha256": "0e27166f802cabde1cb68a2804d0879cb7c03b3df5fea86a2adf35f307fe2491",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_revision_phase_c.py": {
+    "historical_sha256": "feda7e4b4bd67c3748f7395903bd387273cfb7e90a4722845be965fa3a9c6d1a",
+    "phase_e_sha256": "471e7e583b4bf71af4c8ea210bcd9715eeb18354ba245cecf56afc560465fa39",
+    "path": "coilnet/experiments/run_revision_phase_c.py",
+    "release_sha256": "f22a6c11dfac713c3b204f011dc9db85b81c603deed0e80810709f8dc888a766",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/experiments/run_sequence_memory.py": {
+    "historical_sha256": "133a083a9438531e89d3932a76e7a968e3a1f13e9b58835e3cc001433a031ec1",
+    "phase_e_sha256": "133a083a9438531e89d3932a76e7a968e3a1f13e9b58835e3cc001433a031ec1",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_spec_demo.py": {
+    "historical_sha256": "ba5544c58c12d0b8e845c42f8dd7b9fa11d937d7470edf074f422c3fee74ccb0",
+    "phase_e_sha256": "ba5544c58c12d0b8e845c42f8dd7b9fa11d937d7470edf074f422c3fee74ccb0",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/experiments/run_symmetry_diagnostic.py": {
+    "historical_sha256": "e890ca429ef5d724d34e8d74eea14a1ce59e1fc17dbeccea3bc96cc425493c1f",
+    "phase_e_sha256": "e890ca429ef5d724d34e8d74eea14a1ce59e1fc17dbeccea3bc96cc425493c1f",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/figs.py": {
+    "historical_sha256": "08982e66103e8adebe129e0ad5be13e55c8bf72bcf9c3f7b15a644af713c49a0",
+    "phase_e_sha256": "08982e66103e8adebe129e0ad5be13e55c8bf72bcf9c3f7b15a644af713c49a0",
+    "path": "coilnet/figs.py",
+    "release_sha256": "98e1b5e7bc46027ba3778f5dd780d4517ab92727154fe7d4aa3cf280210d25a4",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/hopfield.py": {
+    "historical_sha256": "841a82468b71252b291aa6af2e9c88c01845f15766299eed58d529a10899282d",
+    "phase_e_sha256": "841a82468b71252b291aa6af2e9c88c01845f15766299eed58d529a10899282d",
+    "path": "coilnet/hopfield.py",
+    "release_sha256": "841a82468b71252b291aa6af2e9c88c01845f15766299eed58d529a10899282d",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/multistate/__init__.py": {
+    "historical_sha256": "20d0b99d84df82172ae5f95047727a05a04b4b4cbab8b214f86af6e5aed4889c",
+    "phase_e_sha256": "20d0b99d84df82172ae5f95047727a05a04b4b4cbab8b214f86af6e5aed4889c",
+    "path": "coilnet/multistate/__init__.py",
+    "release_sha256": "ee57cc1c148b62b8dad0b93c189873bfee8508a556a64f38aa28ef475cca5881",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/multistate/addressability.py": {
+    "historical_sha256": "ce0a71b70de96552e1de724f79fc2a9cb7fcbcf50b53770246da34d7c9248c2a",
+    "phase_e_sha256": "ce0a71b70de96552e1de724f79fc2a9cb7fcbcf50b53770246da34d7c9248c2a",
+    "path": "coilnet/multistate/addressability.py",
+    "release_sha256": "0db139cdda6a7c45868336b62924fb151b61765100606330e1153491684fa392",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/multistate/landscape.py": {
+    "historical_sha256": "27dc398a0b57afa7dfe06dd61d15cbf11c6aa8740f45a69fd9c8944ef79a3853",
+    "phase_e_sha256": "27dc398a0b57afa7dfe06dd61d15cbf11c6aa8740f45a69fd9c8944ef79a3853",
+    "path": "coilnet/multistate/landscape.py",
+    "release_sha256": "4c391d358454ef964fb2990f53d016828ec56a29b5056c13ee66a33b4c5dc196",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/multistate/operations.py": {
+    "historical_sha256": "2ec9ddce57afcaece78451f7a0fd2867bab018d758d6044a3928a5d1db51afbd",
+    "phase_e_sha256": "2ec9ddce57afcaece78451f7a0fd2867bab018d758d6044a3928a5d1db51afbd",
+    "path": "coilnet/multistate/operations.py",
+    "release_sha256": "a1c6aaa9e917b1163ac5602a066361d7b877b8eece5d139fc0969b4d616c8ef9",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/neuron.py": {
+    "historical_sha256": "76f5cde491df0f719e5d3e39c56a81deef5ff214d7c567be123c4dead402c745",
+    "phase_e_sha256": "76f5cde491df0f719e5d3e39c56a81deef5ff214d7c567be123c4dead402c745",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/paper/__init__.py": {
+    "historical_sha256": "1facce102db60218842a8344807fc2cb0494b02af2b0a2dc718e873db2e5eaa5",
+    "phase_e_sha256": "1facce102db60218842a8344807fc2cb0494b02af2b0a2dc718e873db2e5eaa5",
+    "path": "coilnet/paper/__init__.py",
+    "release_sha256": "e5156c2b57fbb89a8fe65a6e4a163e5b165726ac81a62f079b0294679665d7d2",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/paper/make_q1_figures.py": {
+    "historical_sha256": "1e1d8af18d0e8294125a1cef7827a441d334c873b9ae6c36c953e08d83589e65",
+    "phase_e_sha256": "1e1d8af18d0e8294125a1cef7827a441d334c873b9ae6c36c953e08d83589e65",
+    "path": "coilnet/paper/make_q1_figures.py",
+    "release_sha256": "f85109e4f4ddf6d33d4b65f51b358512aae781435c0fca7cdf59e9d72cb6a1fc",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/__init__.py": {
+    "historical_sha256": "e00affae3c30bd5ae3e34b7416eac14efdc72a617c3bd9d8b022716edefab336",
+    "phase_e_sha256": "e00affae3c30bd5ae3e34b7416eac14efdc72a617c3bd9d8b022716edefab336",
+    "path": "coilnet/physics/__init__.py",
+    "release_sha256": "bdf483f7b0a3f1ad8fb278f8e94618cf276cfd1d45879d69e7b7653861509913",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/constants.py": {
+    "historical_sha256": "935d9dff570f2033a8fa040022c6ab0a661059b3e5f40976c9194d861b6c076c",
+    "phase_e_sha256": "935d9dff570f2033a8fa040022c6ab0a661059b3e5f40976c9194d861b6c076c",
+    "path": "coilnet/physics/constants.py",
+    "release_sha256": "0813d190688104b41f9b439aec3143ffc2af8adf483eea590267f3dcd34b018b",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/coupling_physics.py": {
+    "historical_sha256": "c65d2204d27ca560b0555d732661ac02190771ac2f8bad7b26536d2b0c14c45b",
+    "phase_e_sha256": "c65d2204d27ca560b0555d732661ac02190771ac2f8bad7b26536d2b0c14c45b",
+    "path": "coilnet/physics/coupling_physics.py",
+    "release_sha256": "87bb0285d306b5268ff39a7a77f2964c199b6639e27ebf9d52c7406300df047b",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/multibody.py": {
+    "historical_sha256": "b1c860e67fcda08d75b5733cfa05318a8268d5d57e55387b2929cc625a18810f",
+    "phase_e_sha256": "b1c860e67fcda08d75b5733cfa05318a8268d5d57e55387b2929cc625a18810f",
+    "path": "coilnet/physics/multibody.py",
+    "release_sha256": "7781043a080b963b5612a648236c4b17330558d25e12a15b797ff3bcf7a0dcad",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/pb_grid.py": {
+    "historical_sha256": "a6006288f3ab8bea4372af7441b9b0a47cdad0de3cfcdb5b17059a03822a7868",
+    "phase_e_sha256": "a6006288f3ab8bea4372af7441b9b0a47cdad0de3cfcdb5b17059a03822a7868",
+    "path": "coilnet/physics/pb_grid.py",
+    "release_sha256": "1f36ba108b3fd8a204de530aa9bd1ba3f738c942f7709fed2781217c3fb5c11e",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/poisson_boltzmann.py": {
+    "historical_sha256": "d70597d82e41ded29a421d084c1cb60963b0e5a8b18c4f30ccf395e747fe0f0c",
+    "phase_e_sha256": "d70597d82e41ded29a421d084c1cb60963b0e5a8b18c4f30ccf395e747fe0f0c",
+    "path": "coilnet/physics/poisson_boltzmann.py",
+    "release_sha256": "f993499e5da5688d42222c41c7848a907c0b8e7a11dbf8597846a4566d6c3222",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/physics/swelling.py": {
+    "historical_sha256": "7d57c78ef5e7691d5f6d37f5302a8b89242fc17180fc4c022a6b9811fafe9586",
+    "phase_e_sha256": "7d57c78ef5e7691d5f6d37f5302a8b89242fc17180fc4c022a6b9811fafe9586",
+    "path": "coilnet/physics/swelling.py",
+    "release_sha256": "7d57c78ef5e7691d5f6d37f5302a8b89242fc17180fc4c022a6b9811fafe9586",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/report.py": {
+    "historical_sha256": "66bd4a68172da3dd0b9ddb4162d8dacdce8dc2d4b2f7959e34ebe39607356ff8",
+    "phase_e_sha256": "66bd4a68172da3dd0b9ddb4162d8dacdce8dc2d4b2f7959e34ebe39607356ff8",
+    "path": "coilnet/report.py",
+    "release_sha256": "e307aeb03008f5056eccd6fdbabbd9e3b076ac0610ac4e88f2b2f15f9c44c852",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/reservoir/__init__.py": {
+    "historical_sha256": "0f843f4ae24a9cfd7bd104c51a95271e71db1f36ec1a78f637a77c3b98e06987",
+    "phase_e_sha256": "0f843f4ae24a9cfd7bd104c51a95271e71db1f36ec1a78f637a77c3b98e06987",
+    "path": "coilnet/reservoir/__init__.py",
+    "release_sha256": "0f843f4ae24a9cfd7bd104c51a95271e71db1f36ec1a78f637a77c3b98e06987",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/reservoir/engine.py": {
+    "historical_sha256": "5f2a4243a356b562dc54fc2f9d2fc5557c804adc3eb4cfcba2588900d666c47a",
+    "phase_e_sha256": "5f2a4243a356b562dc54fc2f9d2fc5557c804adc3eb4cfcba2588900d666c47a",
+    "path": "coilnet/reservoir/engine.py",
+    "release_sha256": "5f2a4243a356b562dc54fc2f9d2fc5557c804adc3eb4cfcba2588900d666c47a",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/reservoir/metrics.py": {
+    "historical_sha256": "2c54f7eb74bc0b2adcfd6dbcc363c720893be2927bd32aa67d27fd29f3ece43f",
+    "phase_e_sha256": "2c54f7eb74bc0b2adcfd6dbcc363c720893be2927bd32aa67d27fd29f3ece43f",
+    "path": "coilnet/reservoir/metrics.py",
+    "release_sha256": "267e895f82eca0caf8e35395ddbea3d89a980c363fa4c21b968d579eafaae603",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/reservoir/readout.py": {
+    "historical_sha256": "232bea6cd3fe81687f0843b6bc6e443c09fa2ce7ede80e3c5cf211cecd83cb3a",
+    "phase_e_sha256": "232bea6cd3fe81687f0843b6bc6e443c09fa2ce7ede80e3c5cf211cecd83cb3a",
+    "path": "coilnet/reservoir/readout.py",
+    "release_sha256": "232bea6cd3fe81687f0843b6bc6e443c09fa2ce7ede80e3c5cf211cecd83cb3a",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/reservoir/tasks.py": {
+    "historical_sha256": "204a0986bccd8558e0379f73f68861a23271bb7a32f4f9d119858cca8bba3155",
+    "phase_e_sha256": "204a0986bccd8558e0379f73f68861a23271bb7a32f4f9d119858cca8bba3155",
+    "path": "coilnet/reservoir/tasks.py",
+    "release_sha256": "c7e73328bcb646288fd22641750989742564f8c1c3631ad92b72b4c2e4a21ee2",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "coilnet/sequence_memory.py": {
+    "historical_sha256": "0f4fa1c6268317d8c30a3fd2eefc8591ef9a465e993e7cb9b64dd81513b4537a",
+    "phase_e_sha256": "0f4fa1c6268317d8c30a3fd2eefc8591ef9a465e993e7cb9b64dd81513b4537a",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/__init__.py": {
+    "historical_sha256": "21c7bed393248fecc57f39c65b181f062cdd9da043b659b58d272fef341651a1",
+    "phase_e_sha256": "21c7bed393248fecc57f39c65b181f062cdd9da043b659b58d272fef341651a1",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/engine.py": {
+    "historical_sha256": "34e1181825db312dfed7503c9eac66dde7ec80f8037f7e0e6fc457f8168e47bd",
+    "phase_e_sha256": "34e1181825db312dfed7503c9eac66dde7ec80f8037f7e0e6fc457f8168e47bd",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/materials_db.py": {
+    "historical_sha256": "8c22f1c25d778a0289b42a2a9a4ddeec2d2bf9cd0b2e43e8cc078b762f622f79",
+    "phase_e_sha256": "8c22f1c25d778a0289b42a2a9a4ddeec2d2bf9cd0b2e43e8cc078b762f622f79",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/measurable.py": {
+    "historical_sha256": "f91c51a759fccae20b1bd035444585f89942d8aca2eeeb3b3e7f5b98d71d03cf",
+    "phase_e_sha256": "f91c51a759fccae20b1bd035444585f89942d8aca2eeeb3b3e7f5b98d71d03cf",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/paradigms.py": {
+    "historical_sha256": "d0cd60d4e5ddf8f70a7526015489e4e3f6bc242ca8b033e9b66113553aaeeedf",
+    "phase_e_sha256": "d0cd60d4e5ddf8f70a7526015489e4e3f6bc242ca8b033e9b66113553aaeeedf",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/profiles.py": {
+    "historical_sha256": "e2236b06e7718f68013b8b1d485e15a9531a204a2813b8abb7496de40d9a5eda",
+    "phase_e_sha256": "e2236b06e7718f68013b8b1d485e15a9531a204a2813b8abb7496de40d9a5eda",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "coilnet/spec/report.py": {
+    "historical_sha256": "c3b656da01a22ef1d78fe61dfa8d9a5db549540c07f3272d10fd1a9560324952",
+    "phase_e_sha256": "c3b656da01a22ef1d78fe61dfa8d9a5db549540c07f3272d10fd1a9560324952",
+    "path": null,
+    "release_sha256": null,
+    "status": "excluded legacy helper; not reconstructed"
+  },
+  "paper/data/q1_upgrade/attractor_recall_raw.csv": {
+    "historical_sha256": "c158c552741b4ea373fe24ef8b762b73ccefe57123d0a76e0af1493917882115",
+    "phase_e_sha256": "c158c552741b4ea373fe24ef8b762b73ccefe57123d0a76e0af1493917882115",
+    "path": "data/original/attractor_recall_raw.csv",
+    "release_sha256": "c158c552741b4ea373fe24ef8b762b73ccefe57123d0a76e0af1493917882115",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/attractor_recall_summary.csv": {
+    "historical_sha256": "ac2e4793191b53f1679969b9e778f34e6bc97449746124c14cb97355dc540680",
+    "phase_e_sha256": "ac2e4793191b53f1679969b9e778f34e6bc97449746124c14cb97355dc540680",
+    "path": "data/original/attractor_recall_summary.csv",
+    "release_sha256": "ac2e4793191b53f1679969b9e778f34e6bc97449746124c14cb97355dc540680",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/config_used.json": {
+    "historical_sha256": "8ed2dc711b64d99de65adb3090dc0305b0a0d72bc11c692e4894088eca4f8e74",
+    "phase_e_sha256": "8ed2dc711b64d99de65adb3090dc0305b0a0d72bc11c692e4894088eca4f8e74",
+    "path": "data/original/config_used.json",
+    "release_sha256": "9a2100649e201b1addd5b4af6f4b540cb063e617ca7e218cc9ba094fb291ce5c",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/manifest.json": {
+    "historical_sha256": "00e4d4e737cad3de78e905c9629da9e96ecb036e426ec69f69124b2b11ca06f0",
+    "phase_e_sha256": "8a3fae4eb0a3b40dec0f30f39de2baa5423b656762eb20f362047704d81fd834",
+    "path": "data/original/manifest.json",
+    "release_sha256": "4bfab90f55500ea2d5d169b7aab3fc4bd586368328e0bf88adf7867b56414111",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/multivalued_confusion.csv": {
+    "historical_sha256": "ab5f6dfd5cad23c4c4d19664cf94855bf370e3b91fd7c810f949c90171934e72",
+    "phase_e_sha256": "ab5f6dfd5cad23c4c4d19664cf94855bf370e3b91fd7c810f949c90171934e72",
+    "path": "data/original/multivalued_confusion.csv",
+    "release_sha256": "ab5f6dfd5cad23c4c4d19664cf94855bf370e3b91fd7c810f949c90171934e72",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/multivalued_raw.csv": {
+    "historical_sha256": "35ff55a4b1819b498741d40825466c4890088f62f828e0f4e2596696a80b89b9",
+    "phase_e_sha256": "35ff55a4b1819b498741d40825466c4890088f62f828e0f4e2596696a80b89b9",
+    "path": "data/original/multivalued_raw.csv",
+    "release_sha256": "35ff55a4b1819b498741d40825466c4890088f62f828e0f4e2596696a80b89b9",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/multivalued_summary.csv": {
+    "historical_sha256": "24fb8202f8cd4e44bc341d29f8dab87bb07e0af7938497aeaf510c49904ca1c1",
+    "phase_e_sha256": "24fb8202f8cd4e44bc341d29f8dab87bb07e0af7938497aeaf510c49904ca1c1",
+    "path": "data/original/multivalued_summary.csv",
+    "release_sha256": "24fb8202f8cd4e44bc341d29f8dab87bb07e0af7938497aeaf510c49904ca1c1",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/rbm_raw.csv": {
+    "historical_sha256": "00785b000fea7235020be11df92aac69cb83df7556aa11977b6a040ab8ce8c8c",
+    "phase_e_sha256": "00785b000fea7235020be11df92aac69cb83df7556aa11977b6a040ab8ce8c8c",
+    "path": "data/original/rbm_raw.csv",
+    "release_sha256": "00785b000fea7235020be11df92aac69cb83df7556aa11977b6a040ab8ce8c8c",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/rbm_summary.csv": {
+    "historical_sha256": "a945edd6e15934897785db0a00dcfe297b7ffce0a9f663fc7bb26fb3bd844d8c",
+    "phase_e_sha256": "a945edd6e15934897785db0a00dcfe297b7ffce0a9f663fc7bb26fb3bd844d8c",
+    "path": "data/original/rbm_summary.csv",
+    "release_sha256": "a945edd6e15934897785db0a00dcfe297b7ffce0a9f663fc7bb26fb3bd844d8c",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/reservoir_comparisons.csv": {
+    "historical_sha256": "f15d63a5ea4088eb680603720ea2160b2c53f03e44ba231589a042c8131bc357",
+    "phase_e_sha256": "f15d63a5ea4088eb680603720ea2160b2c53f03e44ba231589a042c8131bc357",
+    "path": "data/original/reservoir_comparisons.csv",
+    "release_sha256": "f15d63a5ea4088eb680603720ea2160b2c53f03e44ba231589a042c8131bc357",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/reservoir_raw.csv": {
+    "historical_sha256": "3b6ab493bafaf1ca460f93d83c1add8205d425644bc8b8e387ee68c733bc9c48",
+    "phase_e_sha256": "3b6ab493bafaf1ca460f93d83c1add8205d425644bc8b8e387ee68c733bc9c48",
+    "path": "data/original/reservoir_raw.csv",
+    "release_sha256": "3b6ab493bafaf1ca460f93d83c1add8205d425644bc8b8e387ee68c733bc9c48",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/reservoir_summary.csv": {
+    "historical_sha256": "5f95478292f48f58c6f585162dca5f9e785afa884cdf8b186dd89213ef1c0cb7",
+    "phase_e_sha256": "5f95478292f48f58c6f585162dca5f9e785afa884cdf8b186dd89213ef1c0cb7",
+    "path": "data/original/reservoir_summary.csv",
+    "release_sha256": "5f95478292f48f58c6f585162dca5f9e785afa884cdf8b186dd89213ef1c0cb7",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/routes_raw.csv": {
+    "historical_sha256": "3151659bcb07dfe586d1d8d98ac91dcfe5f8952e188e24b517321690ef08fbee",
+    "phase_e_sha256": "3151659bcb07dfe586d1d8d98ac91dcfe5f8952e188e24b517321690ef08fbee",
+    "path": "data/original/routes_raw.csv",
+    "release_sha256": "3151659bcb07dfe586d1d8d98ac91dcfe5f8952e188e24b517321690ef08fbee",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/data/q1_upgrade/routes_summary.csv": {
+    "historical_sha256": "59919feb4d3086797a99978ef6cf2854e59f7b033f7d1a766e461c1ef5f5d0b6",
+    "phase_e_sha256": "59919feb4d3086797a99978ef6cf2854e59f7b033f7d1a766e461c1ef5f5d0b6",
+    "path": "data/original/routes_summary.csv",
+    "release_sha256": "59919feb4d3086797a99978ef6cf2854e59f7b033f7d1a766e461c1ef5f5d0b6",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/revision-2026-10-06/phase-c/config.json": {
+    "historical_sha256": "8c2d2f87c1d0f5993e0a3663c7398b2c3ed6756a9633bb7e6861f11fba79d25c",
+    "phase_e_sha256": "8c2d2f87c1d0f5993e0a3663c7398b2c3ed6756a9633bb7e6861f11fba79d25c",
+    "path": "configs/revision.json",
+    "release_sha256": "8c2d2f87c1d0f5993e0a3663c7398b2c3ed6756a9633bb7e6861f11fba79d25c",
+    "status": "retained with explicit cleanup mapping"
+  },
+  "paper/revision-2026-10-06/phase-c/ANALYSIS_SPEC.md": {
+    "historical_sha256": "8210132a6bf2735ba32a06bddccd72083fa662122e9468e49669b3a495ca92bd",
+    "phase_e_sha256": "8210132a6bf2735ba32a06bddccd72083fa662122e9468e49669b3a495ca92bd",
+    "path": "docs/revision-protocol.md",
+    "release_sha256": "5cd3c24cd212ab9d76631d753a1881c31963389c888795aec0ed538d23bfbcaf",
+    "status": "retained with explicit cleanup mapping"
+  }
+}

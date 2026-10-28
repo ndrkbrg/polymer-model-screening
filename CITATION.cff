@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this software and its associated article when using these models or data."
+type: software
+title: "Computational Screening of Effective Interaction Models for Stimuli-Responsive Polymer Solutions: Reproducibility Code"
+version: 0.1.0
+repository-code: "https://github.com/ndrkbrg/polymer-model-screening"
+url: "https://github.com/ndrkbrg/polymer-model-screening"
+license: MIT
+authors:
+  - family-names: "Kabdushev"
+    given-names: "Sherniyaz B."
+  - family-names: "Baipakbayeva"
+    given-names: "Saltanat T."
+  - family-names: "Nuraliyev"
+    given-names: "Fakhriddin M."
+  - family-names: "Sergeyev"
+    given-names: "Andrey"
+  - family-names: "Ibraimov"
+    given-names: "Margulan K."
+  - family-names: "Sagidolda"
+    given-names: "Yerulan"
+  - family-names: "Yermukhambetova"
+    given-names: "Bayana B."
+  - family-names: "Mun"
+    given-names: "Grigoriy A."

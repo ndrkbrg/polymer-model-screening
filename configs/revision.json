@@ -1,0 +1,24 @@
+{
+  "analysis_date": "2026-10-20",
+  "systems": ["PAA", "NVPVPE"],
+  "main_seeds": [30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59],
+  "sensitivity_seeds": [30,31,32,33,34,35,36,37,38,39],
+  "bootstrap_resamples": 10000,
+  "reservoir": {
+    "N": 40, "spread": 1.0, "grid_n": 40, "radius": 0.9,
+    "response": {"bistable": 0.3, "graded": -1.0},
+    "noise": [0.0,0.1,0.3], "b": 1.0, "gain": 0.5,
+    "dt": 0.02, "tau": [0.5,1.0,2.0], "input_scale": [0.5,1.0,2.0],
+    "driven_fraction": [0.5,1.0],
+    "sequence_length": 1500, "washout": 200, "memory_length": 2000,
+    "max_delay": 40, "ridge": 0.000001
+  },
+  "attractor": {
+    "N": 30, "spread": 1.0, "grid_n": 40,
+    "budgets": [128,256,512,1024], "validation_starts": 256,
+    "top_k": [5,10,0], "corruption": 0.2, "cue_repeats": 5, "max_sweeps": 80,
+    "thresholds": [-0.1,-0.05,0.0,0.05,0.1],
+    "perturbations": [0.0,0.0001,0.001,0.01,0.05,0.1,0.2],
+    "cutoffs": [0.00000001,0.0001,0.001,0.01,0.05,0.1,0.5]
+  }
+}

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polymer-model-screening"
+version = "0.1.0"
+description = "Reproducibility code for computational screening of effective interaction models for polymer solutions"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3,<2.4",
+    "scipy>=1.16,<1.17",
+    "matplotlib>=3.9,<3.10",
+    "threadpoolctl>=3.6,<4",
+]
+
+[project.urls]
+Repository = "https://github.com/ndrkbrg/polymer-model-screening"
+Issues = "https://github.com/ndrkbrg/polymer-model-screening/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4,<9", "ruff==0.17.2"]
+
+[tool.setuptools.packages.find]
+include = ["coilnet*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: fresh multi-workflow simulations and figure generation",
+]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["F"]
+ignore = ["F401"]
+
+[tool.ruff.format]
+docstring-code-format = false

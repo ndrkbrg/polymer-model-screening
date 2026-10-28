@@ -1,0 +1,8 @@
+id,claim,evidence,location,limit,evidence_class,human_verification
+C01,Matched graded responses lower NRMSE at all three tested noise levels in both families.,primary_contrasts.csv,3.2; S11,No calibrated material effect or universal architecture ranking.,C,pending
+C02,NRMSE response-noise interaction is uncertain in both families.,primary_contrasts.csv,3.2; S11,Interaction tested only between D=0.1 and D=0.3.,C,pending
+C03,Discovery remains incomplete at 1024 starts; top-k changes recovery estimates.,discovery_summary.csv,3.1; S13,No exhaustive or trained storage capacity.,C,pending
+C04,Residual cutoff crossing does not define a dynamical failure boundary.,attractor_sensitivity_summary.csv; cutoff_summary.csv,3.1; S13,Specific fitted diagnostic and dense perturbation model.,C,pending
+C05,Timing and input sensitivity are conditional; topology intervals do not establish equivalence.,secondary_contrasts.csv,3.2; S12,Ten paired seeds; no full factorial or global optimum.,C,pending
+C06,High RBM validity coexists with low coverage and duplicates; activity proxy is not global mixing.,rbm_joint_summary.csv,3.4; S14,Generic small benchmarks; finite sampling budgets.,C,pending
+C07,Route metrics support separate conditional sensitivities only.,routes_joint_summary.csv,4.1; S14,No common physical error axis or superiority ranking.,C,pending

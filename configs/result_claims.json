@@ -1,0 +1,163 @@
+[
+  {
+    "id": "paa_recall_20pct",
+    "summary_file": "attractor_recall_summary.csv",
+    "selector": {"experiment": "recall", "system": "PAA", "N": "30", "spread": "1.0", "threshold_fraction": "0.0", "corruption": "0.2", "representation": "weighted", "metric": "perfect_recall_rate"},
+    "field": "mean",
+    "value": 0.2000
+  },
+  {
+    "id": "nvpvpe_recall_20pct",
+    "summary_file": "attractor_recall_summary.csv",
+    "selector": {"experiment": "recall", "system": "NVPVPE", "N": "30", "spread": "1.0", "threshold_fraction": "0.0", "corruption": "0.2", "representation": "weighted", "metric": "perfect_recall_rate"},
+    "field": "mean",
+    "value": 0.0493
+  },
+  {
+    "id": "paa_physical_narma10",
+    "summary_file": "reservoir_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "model": "physical_tanh", "metric": "narma10_nrmse"},
+    "field": "mean",
+    "value": 0.8751
+  },
+  {
+    "id": "paa_random_narma10",
+    "summary_file": "reservoir_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "model": "random_tanh", "metric": "narma10_nrmse"},
+    "field": "mean",
+    "value": 0.8369
+  },
+  {
+    "id": "nvpvpe_physical_narma10",
+    "summary_file": "reservoir_summary.csv",
+    "selector": {"experiment": "main", "system": "NVPVPE", "model": "physical_tanh", "metric": "narma10_nrmse"},
+    "field": "mean",
+    "value": 0.8652
+  },
+  {
+    "id": "paa_physical_memory",
+    "summary_file": "reservoir_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "model": "physical_tanh", "metric": "memory_capacity"},
+    "field": "mean",
+    "value": 1.9308
+  },
+  {
+    "id": "nvpvpe_physical_memory",
+    "summary_file": "reservoir_summary.csv",
+    "selector": {"experiment": "main", "system": "NVPVPE", "model": "physical_tanh", "metric": "memory_capacity"},
+    "field": "mean",
+    "value": 2.8802
+  },
+  {
+    "id": "random_memory",
+    "summary_file": "reservoir_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "model": "random_tanh", "metric": "memory_capacity"},
+    "field": "mean",
+    "value": 7.0511
+  },
+  {
+    "id": "paa_stable_states",
+    "summary_file": "multivalued_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "spread": "1.0", "metric": "stable_state_count"},
+    "field": "mean",
+    "value": 23.3333
+  },
+  {
+    "id": "nvpvpe_stable_states",
+    "summary_file": "multivalued_summary.csv",
+    "selector": {"experiment": "main", "system": "NVPVPE", "spread": "1.0", "metric": "stable_state_count"},
+    "field": "mean",
+    "value": 70.1000
+  },
+  {
+    "id": "paa_addressability",
+    "summary_file": "multivalued_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "spread": "1.0", "metric": "addressability_score"},
+    "field": "mean",
+    "value": 0.9967
+  },
+  {
+    "id": "nvpvpe_addressability",
+    "summary_file": "multivalued_summary.csv",
+    "selector": {"experiment": "main", "system": "NVPVPE", "spread": "1.0", "metric": "addressability_score"},
+    "field": "mean",
+    "value": 0.3533
+  },
+  {
+    "id": "paa_increment",
+    "summary_file": "multivalued_summary.csv",
+    "selector": {"experiment": "main", "system": "PAA", "spread": "1.0", "metric": "increment_found"},
+    "field": "mean",
+    "value": 0.0
+  },
+  {
+    "id": "rbm_3_unconstrained",
+    "summary_file": "rbm_summary.csv",
+    "selector": {"benchmark": "bas_3x3", "constraint": "unconstrained", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.9652
+  },
+  {
+    "id": "rbm_3_rank4",
+    "summary_file": "rbm_summary.csv",
+    "selector": {"benchmark": "bas_3x3", "constraint": "rank_4", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.5299
+  },
+  {
+    "id": "rbm_3_rank6",
+    "summary_file": "rbm_summary.csv",
+    "selector": {"benchmark": "bas_3x3", "constraint": "rank_6", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.9551
+  },
+  {
+    "id": "rbm_4_unconstrained",
+    "summary_file": "rbm_summary.csv",
+    "selector": {"benchmark": "bas_4x4", "constraint": "unconstrained", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.9831
+  },
+  {
+    "id": "rbm_4_cooperative_coverage",
+    "summary_file": "rbm_summary.csv",
+    "selector": {"benchmark": "bas_4x4", "constraint": "cooperative", "metric": "mode_coverage"},
+    "field": "mean",
+    "value": 0.0378
+  },
+  {
+    "id": "rbm_4_rank8",
+    "summary_file": "rbm_summary.csv",
+    "selector": {"benchmark": "bas_4x4", "constraint": "rank_8", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.9804
+  },
+  {
+    "id": "route_offline_confirmatory",
+    "summary_file": "routes_summary.csv",
+    "selector": {"route": "offline_fabrication", "setting": "confirmatory", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.8490
+  },
+  {
+    "id": "route_zero_mean",
+    "summary_file": "routes_summary.csv",
+    "selector": {"route": "in_material", "setting": "zero_mean_noise", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.9738
+  },
+  {
+    "id": "route_biased",
+    "summary_file": "routes_summary.csv",
+    "selector": {"route": "in_material", "setting": "biased_update", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.9807
+  },
+  {
+    "id": "route_state_dependent",
+    "summary_file": "routes_summary.csv",
+    "selector": {"route": "in_material", "setting": "state_dependent", "metric": "valid_fraction"},
+    "field": "mean",
+    "value": 0.0905
+  }
+]

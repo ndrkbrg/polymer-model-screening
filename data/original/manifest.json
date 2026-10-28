@@ -1,0 +1,88 @@
+{
+  "status": "complete",
+  "software": {
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.2.3",
+      "scipy": "1.17.1",
+      "matplotlib": "3.10.9",
+      "python-docx": "1.2.0",
+      "Pillow": "12.2.0"
+    },
+    "git_commit": "63a1a3b64524e87e7e3f4528b738799a9e0267f9",
+    "git_branch": "codex-variant",
+    "git_dirty": true,
+    "profile": "full",
+    "config_path": "configs/original_full.json"
+  },
+  "config_sha256": "3a39bc2d8b15301dbad28bfbf8c4af54bfd3a1e198b0c13a82f74db007fa920c",
+  "files": [
+    {
+      "path": "paper\\data\\q1_upgrade\\config_used.json",
+      "sha256": "6ae40c64f99fc24d5255514375b734fd9d012919c40f5e1d188ac73b75f5dae2",
+      "bytes": 3191
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\attractor_recall_raw.csv",
+      "sha256": "0936500e5d02e85b08825593eb81118f261b30a1c0bbbeaa38dbcaa00afda477",
+      "bytes": 2354061
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\attractor_recall_summary.csv",
+      "sha256": "93742dbdede57f6b9544a1ecdf299d4ce173e03902e033f407f854ccef051310",
+      "bytes": 690716
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\reservoir_raw.csv",
+      "sha256": "ec80669e7b6927b13a8f15a4dd013f081aff57a8729edd636caf8f83d4b0dbb0",
+      "bytes": 113181
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\reservoir_summary.csv",
+      "sha256": "33c95b1f0c2097744c01a0c77a14cd3f0ba6a2f12251170ee21c59596bbe13e9",
+      "bytes": 31498
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\reservoir_comparisons.csv",
+      "sha256": "d0bf78180eadf4417b2ca5d8ab817862ae1b8030fe622c8182cabac709c413a1",
+      "bytes": 1360
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\multivalued_raw.csv",
+      "sha256": "3bb881ac8d5cebe0203c48302d582c1b395e9d5fed24adb65c353412542fba24",
+      "bytes": 19898
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\multivalued_summary.csv",
+      "sha256": "6d3daca6832afa4b6dd9cb2a4560275f1e9917d047482875977732de34bbf065",
+      "bytes": 12648
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\multivalued_confusion.csv",
+      "sha256": "2e4f94ba50711a6e60ad0f46f566d9c605e12931be42f059c4402065c401051c",
+      "bytes": 35003
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\rbm_raw.csv",
+      "sha256": "3418e3b3a8da3a42a3989460ca345fdf7b5504fedc6a8885d974ce41bcc3fedd",
+      "bytes": 214246
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\rbm_summary.csv",
+      "sha256": "46c1a5fed40306b4ac0bb582fe7d87e6c3fb2168a2e98979f9f42ed2ee7192e0",
+      "bytes": 75231
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\routes_raw.csv",
+      "sha256": "7f2b465542f16184b6cac8d82795e9fc8981a4e59160245adcfac1a8de8bea9f",
+      "bytes": 132582
+    },
+    {
+      "path": "paper\\data\\q1_upgrade\\routes_summary.csv",
+      "sha256": "bf137cf1b8740d30625ee5f7c294bc25833be65517a9e2046ebb1efa773fd297",
+      "bytes": 82990
+    }
+  ],
+  "missing": []
+}

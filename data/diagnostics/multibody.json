@@ -1,0 +1,51 @@
+{
+  "n_coils": 30,
+  "salt_M": 0.01,
+  "spreads": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "threshold": 0.05,
+  "systems": {
+    "PAA": {
+      "asymmetry_curve_J": [
+        5.914175776707597e-17,
+        0.005610272952041168,
+        0.020570991233177058,
+        0.06309927475988332,
+        0.1035134333257982,
+        0.13258985386720834
+      ],
+      "interaction_asymmetry_M": 4.7505297363093205e-17,
+      "asymmetry_at_spread_0p5": 0.020570991233177058,
+      "crosses_threshold_at_spread": 1.0,
+      "energy_fail_rate_at_spread_1": 0.38333333333333336,
+      "diagonally_symmetrized_asymmetry": 4.659900502409988e-17,
+      "weighted_energy_fail_rate_at_spread_1": 0.0,
+      "zero_threshold_sign_dynamics_equivalent": true
+    },
+    "NVPVPE": {
+      "asymmetry_curve_J": [
+        0.0,
+        0.0686844441491512,
+        0.14482259744964343,
+        0.2942849555912787,
+        0.4165415033562989,
+        0.5128280069356237
+      ],
+      "interaction_asymmetry_M": 0.0,
+      "asymmetry_at_spread_0p5": 0.14482259744964343,
+      "crosses_threshold_at_spread": 0.25,
+      "energy_fail_rate_at_spread_1": 0.016666666666666666,
+      "diagonally_symmetrized_asymmetry": 7.858535443960404e-17,
+      "weighted_energy_fail_rate_at_spread_1": 0.0,
+      "zero_threshold_sign_dynamics_equivalent": true
+    }
+  },
+  "verdict": "Interaction M is reciprocal while effective coupling J is asymmetric when source and receiver factors differ. Because all factors in these models are positive, diag(source/receiver) J is symmetric and has the same zero-threshold sign dynamics as J. The ordinary energy written directly with J is therefore not the appropriate diagnostic: a weighted Lyapunov function exists for this factorized model. Heterogeneity invalidates the naive identification of J as a symmetric weight matrix, but does not by itself rule out attractor dynamics.",
+  "note": "PAA: many-body screened-Poisson Green's function (double-layer overlap, real geometry). NVPVPE: geometric hydrophobic contact (Paper 2 mechanism). Both: J = diag(receiver)\u00b7M\u00b7diag(source), M symmetric. Linearized PB (~3% nonlinearity at these low potentials). Not calibrated to data \u2014 a physical consistency test."
+}
